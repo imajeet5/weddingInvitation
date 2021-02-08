@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".countdown").countdown({until: new Date("Feb 14 2021 16:00:00 +0530"), compact: true}).show().before("(").after(")");
+	$(".countdown").countdown({until: new Date("Feb 14 2021 19:00:00 +0530"), compact: true}).show().before("(").after(")");
 
 	$("#location").click(function() {
 		$("#location iframe").css("pointer-events", "auto");
